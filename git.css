@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(neonbrand-zFSo6bnZJTw-unsplash.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 650px;
+}
+
+.header ul li{
+    display: inline-block;
+    text-align: right;
+    padding-left: 150px;
+}
+
+.header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.header ul li a:after{
+    content: "";
+    width: 0%;
+    margin: auto;
+    display: block;
+    height: 3px;
+    background: white;
+    transition: 0.5s;
+}
+
+.header ul li a:hover::after{
+    width: 100%;
+}
+
+.sub{
+    margin-top: 90px;
+}
+.sub h1{
+    margin-bottom: 40px;
+    font-size: 45px;
+    color:black;
+    margin-left: 70px;
+}
+
+.sub p{
+    font-size: 30px;
+    color: white;
+    margin-left:70px ;
+}
+
+.sub button{
+    margin-top: 40px;
+    margin-left: 70px;
+    border: none;
+}
+
+.sub button a{
+    text-decoration: none ;
+    font-size: 35px;
+    color:white;
+    background-color: rgb(0, 183, 255);
+    cursor: pointer;
+}
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.why h2{
+    margin-top: 50px;
+    font-size: 40px;
+    color: lightslategray;
+}
+
+.about h6{
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-style: italic ;
+    letter-spacing: 1px;
+}
+.about h5{
+    font-size: 21px;
+    font-style: italic ;
+    letter-spacing: 1px ;
+}
+
+.head h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.aca h3{
+    font-size: 70px;
+    color:lightskyblue;
+    margin-left: 2%;
+}
+.aca p{
+    font-size: 20px;
+    color:lightskyblue
+}
+
+.next{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next h4{
+    font-size: 30px;
+    margin-left: 5%s;
+}
+
+.next p{
+    font-size: 25px;
+    color: lightslategray;
+
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.courses img{
+    height: 260px;
+    border-radius: 10px;
+
+}
+.courses .image-1{
+    margin-right: 90%;
+}
+.courses .image-2{
+    padding-left: 50px;
+}
+.courses .image-3{
+    margin-left: 20%;
+}
+.cs{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.css{
+    text-align: left;
+    font-size: 20px;
+}
+.eng{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.engi{
+    font-size: 20px;
+    text-align: left;
+}
+.vr{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.vrp{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.again{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.cell img{
+    height: 230px;
+
+}
+.cell .image-4{
+    height: 245px;
+}
+.cell .image-5{
+    height: 290px;
+}
+.cell .image-6{
+    height:280px;
+}
+.cell h4{
+    color:grey;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cell p{
+    font-size: 20px;
+}
+.extra img{
+    height: 450px;
+    float: right;
+}
+.contact{
+    text-align: center;
+    color: lightslategray;
+}
+.foot{
+    width: 70%;
+    margin-left: 17%;
+    margin-bottom: 20%;
+    height: 100px;
+}
+.contact h3{
+    font-size: 50px;
+}
+.contact p{
+    font-size: 25px;
+}
+.contact H6{
+    font-size: 40PX;
+}
+
+
+
+
+
